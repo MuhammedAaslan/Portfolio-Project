@@ -133,7 +133,8 @@ nav.contact2 a:nth-child(5)::before {
 input,
 textarea,
 button {
-  /* display: inline-block; */
+  margin: auto;
+  display: block;
   width: 700px;
   font-size: 25px;
   color: white;
@@ -141,11 +142,11 @@ button {
   border: 1px solid rgb(233, 206, 172);
   padding: 10px;
   margin-bottom: 15px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .button1 {
-  font-weight: 900;
+  font-weight: 900px;
   background-color: rgb(131, 92, 19);
   cursor: pointer;
 }
